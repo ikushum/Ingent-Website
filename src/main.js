@@ -6,6 +6,7 @@
 
 // Plugins
 import { registerPlugins } from '@/plugins'
+import '@/plugins/gtag'
 
 // Components
 import App from './App.vue'
