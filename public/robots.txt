@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://ingent.technology/sitemap.xml 
+Sitemap: https://ingent.tech/sitemap.xml 
