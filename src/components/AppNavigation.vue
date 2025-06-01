@@ -6,7 +6,7 @@
         :key="link.title"
         link
         :title="link.title"
-        @click="link.handler"
+        @click="link.handler(), drawer = false"
       />
     </v-list>
   </v-navigation-drawer>

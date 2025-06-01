@@ -1,18 +1,18 @@
 <template>
   <v-main>
-    <AppNavigation aria-label="Main navigation" :navigation-links="navigationLinks" />
+    <AppNavigation :navigation-links="navigationLinks" />
 
-    <MainHero id="home" aria-label="Hero section" />
+    <MainHero id="home" />
 
-    <AboutUs id="about" aria-label="About us section" />
+    <AboutUs id="about" />
 
-    <RacepassTestomonial id="testomonial" aria-label="Testimonials" />
+    <RacepassTestomonial id="testomonial" />
 
-    <OurServices id="services" aria-label="Our services" />
+    <OurServices id="services" />
 
-    <ContactUs id="contact" aria-label="Contact us" />
+    <ContactUs id="contact" />
 
-    <MainFooter aria-label="Footer" :navigation-links="navigationLinks" />
+    <MainFooter :navigation-links="navigationLinks" />
   </v-main>
 </template>
 
