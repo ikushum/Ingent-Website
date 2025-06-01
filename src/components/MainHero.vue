@@ -7,7 +7,7 @@
         </h1>
 
         <div class="text-h5 text-medium-emphasis mb-10">
-          Empowering Innovation Through Custom Software Development
+          Empowering Innovation through custom Software Development
         </div>
 
         <div class="d-flex ga-4 justify-center">
