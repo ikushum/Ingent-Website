@@ -15,7 +15,7 @@
           />
 
           <p class="text-sm-h5 text-subtitle-1 text-medium-emphasis mt-4 mb-6">
-            "Working with Ingent Technology has been transformative for our business. Their team delivered a robust, scalable solution that exceeded our expectations. Their technical expertise, clear communication, and commitment to quality made them the perfect development partner."
+            "Working with Ingent Technology has been transformative for Racepass. Their team delivered a robust, scalable solution that exceeded our expectations. Their technical expertise, clear communication, and commitment to quality made them the perfect development partner."
           </p>
 
           <v-avatar
