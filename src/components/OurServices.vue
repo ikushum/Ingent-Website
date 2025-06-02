@@ -4,7 +4,11 @@
       class="mb-10 text-center"
       color="transparent"
     >
-      <h1 class="text-h4 font-weight-bold mb-2">
+      <p class="text-body-2 text-primary">
+        All in one place
+      </p>
+
+      <h1 class="text-h4 font-weight-bold my-2">
         Our Core Services
       </h1>
 
@@ -27,6 +31,13 @@
         >
           <template #title>
             <p class="text-body-1 font-weight-bold pb-2">
+              <v-icon
+                class="mr-2"
+                color="primary"
+                icon="mdi-check"
+                size="small"
+              />
+
               {{ item.title }}
             </p>
           </template>
