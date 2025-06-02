@@ -15,9 +15,11 @@
     <div class="my-5">
       <v-btn
         v-for="icon in icons"
-        :key="icon"
+        :key="icon.icon"
         class="mx-4"
-        :icon="icon"
+        :href="icon.href"
+        :icon="icon.icon"
+        target="_blank"
         variant="text"
       />
     </div>
@@ -37,9 +39,15 @@
   })
 
   const icons = [
-    'mdi-facebook',
-    'mdi-twitter',
-    'mdi-linkedin',
-    'mdi-instagram',
+    // 'mdi-facebook',
+    {
+      icon: 'mdi-twitter',
+      href: 'https://x.com/IngentTech',
+    },
+    {
+      icon: 'mdi-linkedin',
+      href: 'http://linkedin.com/company/ingent-technology',
+    },
+    // 'mdi-instagram',
   ]
 </script>
