@@ -1,16 +1,19 @@
 <template>
   <v-layout>
-    <v-container class="d-flex align-center justify-center" :min-height="$vuetify.display.mdAndUp ? '100vh' : 550">
+    <v-container
+      class="d-flex align-center justify-center"
+      :min-height="$vuetify.display.mdAndUp ? '100vh' : 550"
+    >
       <div class="w-100 w-md-50 text-center mt-n16">
-        <h1 class="text-h4 text-md-h2 font-weight-bold my-6">
+        <h1 class="text-h4 text-md-h2 font-weight-bold">
           Ingent Technology
         </h1>
 
-        <div class="text-h5 text-medium-emphasis mb-10">
+        <div class="text-h5 text-medium-emphasis my-6">
           Empowering Innovation through custom Software Development
         </div>
 
-        <div class="d-flex ga-4 justify-center">
+        <div class="d-flex justify-center">
           <v-btn
             class="text-none"
             color="primary"

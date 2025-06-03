@@ -1,5 +1,5 @@
 <template>
-  <v-container class="px-5 my-10 py-10">
+  <v-container class="px-5 py-10">
     <v-sheet
       class="mb-10 text-center"
       color="transparent"

@@ -1,6 +1,6 @@
 <template>
   <v-layout class="pb-10">
-    <v-container>
+    <v-container class="py-0">
       <v-row align="center">
         <v-col
           v-if="$vuetify.display.mdAndUp"
@@ -18,7 +18,7 @@
         </v-col>
 
         <v-col
-          class="pa-md-12 pa-6 text-center text-md-left"
+          class="text-center text-md-left"
           cols="12"
           md="6"
         >
